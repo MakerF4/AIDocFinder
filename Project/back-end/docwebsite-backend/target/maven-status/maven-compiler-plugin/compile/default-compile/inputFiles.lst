@@ -1,0 +1,15 @@
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/dto/UserProfileDto.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/User.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/UserProfileController.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/DatabaseConnection.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/config/WebConfig.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/config/JwtTokenAuthenticationFilter.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/ApiController.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/JwtUtil.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/UserService.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/dto/UserRegistrationDto.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/service/MyUserDetailsService.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/dto/UserLoginDto.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/config/WebSecurityConfig.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/DocWebsiteApplication.java
+/Users/a1/Desktop/Second Year /cs2001-2023-24-group6/back-end/docwebsite-backend/src/main/java/com/example/docwebsite/repository/UserRepository.java

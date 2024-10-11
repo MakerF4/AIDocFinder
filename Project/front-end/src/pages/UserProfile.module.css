@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+/* Container */
+.userProfileContainer {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f2f8fc 0%, #e2eaf0 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Animation */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.h2Profile {
+  animation: slideFadeIn 1s ease-out;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+/* Form Layout */
+.formProfile {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  animation: slideFadeIn 1.2s ease-out;
+}
+
+.labelProfile {
+  color: #59677A;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+}
+
+/* Enhanced Inputs and Selects */
+.inputProfile,
+.selectProfile {
+  padding: 15px;
+  border: 1px solid #ccd6dd; /* Refined border thickness */
+  border-radius: 15px; /* More pronounced rounded corners */
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #ffffff;
+  background: linear-gradient(to top, #ffffff, #f6f9fc); /* Subtle gradient for depth */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Soft shadow for a lifted effect */
+  transition: all 0.3s ease; /* Smooth transition for interactions */
+}
+
+.inputProfile:focus,
+.selectProfile:focus {
+  border-color: #3498db; /* Brighter focus color */
+  box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.2), 0 2px 5px rgba(0,0,0,0.1); /* Enhanced focus shadow */
+}
+
+/* Button Styling */
+.buttonProfile {
+  padding: 15px 25px;
+  background-image: linear-gradient(135deg, #20bf55 0%, #01baef 100%); /* Green to blue gradient */
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+}
+
+.buttonProfile:hover,
+.buttonProfile:focus {
+  background-image: linear-gradient(135deg, #1cbf73 0%, #0ba9db 100%); /* Slightly darker green to blue gradient for hover/focus */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.buttonProfile:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Message Styling */
+.pProfile {
+  color: #c0392b;
+  font-size: 16px;
+  margin-top: 30px;
+  animation: slideFadeIn 1.4s ease-out;
+}
+
+/* Hover Effects */
+.inputProfile:hover,
+.selectProfile:hover {
+  border-color: #b2bec3; /* Enhanced hover border color */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Slightly stronger shadow on hover for depth */
+}
+
+
+/* Image Preview Styling */
+.imagePreviewContainer {
+  margin-top: 20px; /* Space above the image preview container */
+  display: flex;
+  justify-content: center; /* Center the image preview */
+  align-items: center;
+  overflow: hidden; /* Ensure the image does not overflow the container */
+  border-radius: 15px; /* Match input/select border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.imagePreview {
+  max-width: 100%; /* Ensure the image is responsive and fits within the container */
+  max-height: 200px; /* Set a max-height to keep the image from being too tall */
+  object-fit: cover; /* Cover ensures the aspect ratio is maintained while covering the area */
+  border-radius: 15px; /* Rounded corners to match the overall design */
+  transition: transform 0.3s ease; /* Smooth transition for interactions */
+}
+
+.imagePreview:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  cursor: pointer;
+}
+
+
+

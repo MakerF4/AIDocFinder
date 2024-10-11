@@ -1,0 +1,16 @@
+.reviews {
+    padding: 40px;
+  }
+  
+  .review {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1); 
+  } 
+  
+  .review__rating { 
+    color: #f5c233;
+  }
+  
+  /* More styles...*/
