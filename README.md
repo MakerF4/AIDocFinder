@@ -1,5 +1,11 @@
 # AIDocFinder
+
 AIDocFinder is an AI-powered web platform designed to help users find and book appointments with healthcare professionals. The platform leverages modern web technologies and AI to provide a seamless experience, featuring an intelligent chatbot, doctor search functionality, secure user authentication, and profile management.
+
+# Link to video in YouTube
+
+https://youtu.be/wlpJfo4Q-Dc?si=zJGoatM3BYKngBqO
+
 
 # Features
 
